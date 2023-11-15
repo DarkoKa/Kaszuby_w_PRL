@@ -1,0 +1,165 @@
+body{
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Mulish', sans-serif;  
+}
+
+/*  for all a hiperlink */
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ---- background image / navbar / menu ---- */
+.myClassNavlinkHover:hover{ 
+    color: #d30f0f !important;
+    /* ff0037 */
+    /* d30f0f */
+}
+ .bg-image{ 
+    height: 100vh;
+    background-size: cover;
+}
+.myStyleMenuDivs{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: #ED2B2A 1px 2px 6px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    transform: rotate(0);
+}
+    .myStyleMenuDivs:hover a{
+        color: #d30f0f;
+        text-shadow: 0px 0px 0px;
+    }
+
+
+/* ---- "O projekcie" section ---- */
+    .oProjkecieText{
+        font-size: 45px;
+        color: #D21312;
+        border-style: solid;
+        border-width: 1px; 
+        border-color: #D21312;
+        border-radius: 10px;
+    }
+    .myOwnClassProjectContentLeft{
+        background-color: #070A52;
+        text-align: justify;
+        font-size: 25px;
+        line-height: 1.5;
+        border-style: solid;
+        border-width: 2.5px; 
+        border-color: #000000;
+        border-radius: 10px;
+    }
+    .myOwnClassProjectContentRight{
+        background-color: #d30f0f;
+        text-align: justify;
+        font-size: 25px;
+        line-height: 1.5;
+        border-style: solid;
+        border-width: 2.5px; 
+        border-color: #000000;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+   
+/*  ---- "Historia" section ---- */
+    .historiaText{
+        font-size: 45px;
+        color: #070A52;
+        border-style: solid;
+        border-width: 1px; 
+        border-color: #070A52;
+        border-radius: 10px;
+    }
+    .myStyleHistoriaSection{
+        width: 350px;
+        height: 350px;
+        color: #ffffff;
+        text-shadow: #D21312 2px 1px 5px;
+        background:rgba(7, 10, 82, 0.8)
+        url("img/kino_objazd.jpg");
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        transition: 0.9s;
+    }
+    .myStyleHistoriaSection2{
+        width: 350px;
+        height: 350px;
+        color: #ffffff;
+        text-shadow: #D21312 2px 1px 5px;
+        background: rgba(210, 19, 18, 0.8)
+        url("img/kino_objazd.jpg");
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        transition: 0.2s;
+    }
+    .myStyleHistoriaSection:hover{
+        background: url("img/kino_objazd.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .myStyleHistoriaSection2:hover{
+        background: url("img/kino_objazd.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+/*  ---- postacie-sylwetki section ---- */
+    .postacieSylwetkiTekst{
+        font-size: 45px;
+        color: #D21312;
+        border-style: solid;
+        border-width: 1px; 
+        border-color: #D21312;
+        border-radius: 10px;
+    }
+    .myStyleCardPostacieSylwetki{
+        border-color: #D21312;
+        padding: 0;
+    }
+    .zobaczWiecejClass{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 100;
+        color: #D21312;
+        transition: 0.3s;
+    }
+    .zobaczWiecejClass:hover{
+        color: #070A52;
+    }
+
+/*  ----- Sign in form section ---- */
+.signInSection, .myOwnClassSignForm{
+    background-color: #000000;
+}
+    .zapiszBtn{
+        background-color: #d30f0f;
+        color: white;
+        width: 100%;
+    }
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; 
+    /* changed from bootstrap.css file - line from 4203 to 4205 (only rgba% value) */
+    }
+  .navbar-light .navbar-toggler {
+    color: rgba(255, 252, 252) !important;
+    border-color: rgba(255, 252, 252) !important; 
+    /* changed from bootstrap.css file - line from 4199 to 4202 */
+} 
+
+  
