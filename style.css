@@ -35,32 +35,31 @@ a{
 /* ---- "O projekcie" section ---- */
 .oProjkecieText{
         font-size: 45px;
-        color: #D21312;
+        color: #000000; 
         border-style: solid;
-        border-width: 1px; 
-        border-color: #D21312;
+        border-width: 2px; 
+        border-color: #FFC000;
         border-radius: 10px;
     }
     .myOwnClassProjectContentLeft{
-        background-color: #070A52;
+        background-color: #FFC000;
         text-align: justify;
         font-size: 25px;
         line-height: 1.5;
         border-style: solid;
         border-width: 2.5px; 
-        border-color: #000000;
         border-radius: 10px;
     }
     .myOwnClassProjectContentRight{
-        background-color: #d30f0f;
+        background-color: #000000;
+        color: #FFC000;
         text-align: justify;
         font-size: 25px;
         line-height: 1.5;
         border-style: solid;
         border-width: 2.5px; 
-        border-color: #000000;
         border-radius: 10px;
-        color: #ffffff;
+        border-color: #FFC000;
     }
    
 /*  ---- "Historia" section ---- */
