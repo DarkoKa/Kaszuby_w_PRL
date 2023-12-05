@@ -67,15 +67,15 @@ a{
         font-size: 45px;
         color: #FFC000;
         border-style: solid;
-        border-width: 1px; 
+        border-width: 2px; 
         border-color: #000000;
         border-radius: 10px;
     }
     .myStyleHistoriaSection{
         width: 350px;
         height: 350px;
-        color: #ffffff;
-        text-shadow: #FFC000 2px 1px 5px;
+        color: #FFC000;
+        text-shadow: #FFC000 2px 1px 3px;
         background:rgba(0, 0, 0, 0.7)
         url("img/kino_objazd.jpg");
         background-blend-mode: overlay;
@@ -86,22 +86,6 @@ a{
         align-items: center;
         justify-content: center; 
         transition: 0.9s;
-    }
-    .myStyleHistoriaSection2{
-        width: 350px;
-        height: 350px;
-        color: #ffffff;
-        text-shadow: #D21312 2px 1px 5px;
-        background: rgba(210, 19, 18, 0.8)
-        url("img/kino_objazd.jpg");
-        background-blend-mode: overlay;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        justify-content: center; 
-        transition: 0.2s;
     }
     .myStyleHistoriaSection:hover{
         background: url("img/kino_objazd.jpg");
