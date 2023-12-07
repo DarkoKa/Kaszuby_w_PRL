@@ -103,10 +103,10 @@ a{
 /*  ---- postacie-sylwetki section ---- */
     .postacieSylwetkiTekst{
         font-size: 45px;
-        color: #D21312;
+        color: #000000;
         border-style: solid;
-        border-width: 1px; 
-        border-color: #D21312;
+        border-width: 2px; 
+        border-color: #FFC000;
         border-radius: 10px;
     }
      .myStyleCardPostacieSylwetki{ 
@@ -116,12 +116,13 @@ a{
     .zobaczWiecejClass{
         text-decoration: none;
         font-size: 30px;
+        font-weight: bold;
         font-weight: 100;
-        color: #D21312;
+        color: #000000;
         transition: 0.3s;
     }
     .zobaczWiecejClass:hover{
-        color: #070A52;
+        color:#FFC000;
     }
 
 /*  ----- Sign in form section ---- */
@@ -129,7 +130,7 @@ a{
     background-color: #000000;
 }
     .zapiszBtn{
-        background-color: #d30f0f;
+        background-color: #FFC000;
         color: white;
         width: 100%;
     }
