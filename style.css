@@ -19,6 +19,8 @@ a{
     height: 100vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    object-fit: ;
+    object-position: ;
 }
 .myStyleMenuDivs{
     background-color: rgba(0, 0, 0, 0.5);
