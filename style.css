@@ -1,6 +1,6 @@
 body{
-    font-family: 'Golos Text', sans-serif;
-    font-family: 'Mulish', sans-serif;  
+    font-family: 'Golos Text';
+    font-family: 'Mulish';  
 }
 
 /*  style for all hiperlink */
@@ -12,21 +12,20 @@ a{
 /* ---- background image / navbar / menu ---- */
 .myStyleKontaktSign:hover{ 
     color: #FFC000 !important;
-    /* ff0037 */
-    /* d30f0f */
 }
  .bg-image{ 
+    background-image: url(/img/kaszuby_main.jpg);
     height: 100vh;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    object-fit: ;
-    object-position: ;
+    background-size: cover;
+    background-position: 0 -220px;
 }
 .myStyleMenuDivs{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     border-style: solid;
     border-color: #FFC000;
     border-width: 1px;
+    border-radius: 5px;
     transform: rotate(0);
 }
     .myStyleMenuDivs:hover a{
@@ -74,12 +73,12 @@ a{
         border-radius: 10px;
     }
     .myStyleHistoriaSection{
-        width: 350px;
-        height: 350px;
+        width: 450px;
+        height: 450px;
         color: #FFC000;
         text-shadow: #FFC000 2px 1px 3px;
         background:rgba(0, 0, 0, 0.7)
-        url("img/kino_objazd.jpg");
+        url("img/kaszebe.png");
         background-blend-mode: overlay;
         background-position: center;
         background-size: cover;
@@ -90,17 +89,12 @@ a{
         transition: 0.9s;
     }
     .myStyleHistoriaSection:hover{
-        background: url("img/kino_objazd.jpg");
+        background: url("img/kaszebe.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .myStyleHistoriaSection2:hover{
-        background: url("img/kino_objazd.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+
 
 /*  ---- postacie-sylwetki section ---- */
     .postacieSylwetkiTekst{
