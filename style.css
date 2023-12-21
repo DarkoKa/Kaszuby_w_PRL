@@ -17,11 +17,11 @@ a{
     background-image: url(/img/kaszuby_main.jpg);
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 -220px;
+    background-size: inherit;
+    background-position: 0 -30vh;
 }
 .myStyleMenuDivs{
-    background-color: rgba(0, 0, 0, 0.);
+    background-color: rgba(0, 0, 0, 0.7);
     border-style: solid;
     border-color: #FFC000;
     border-width: 1px;
