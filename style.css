@@ -2,15 +2,12 @@ body{
     font-family: 'Golos Text';
     font-family: 'Mulish';  
 }
-
-/*  style for all hiperlink */
 a{
     text-decoration: none;
-    color: #ffffff;
 }
 
-/* ---- background image / navbar / menu ---- */
-.myStyleKontaktSign:hover{ 
+/* ---- background image / bottom navbar / ---- */
+.myStyleKontakt:hover{ 
     color: #FFC000 !important;
 }
  .bg-image{ 
@@ -20,16 +17,17 @@ a{
     background-size: inherit;
     background-position: 0 -30vh;
 }
-.myStyleMenuDivs{
-    background-color: rgba(0, 0, 0, 0.7);
+    .myNavbarStyle{
+    /* background-color: rgba(0, 0, 0, 0.7); 
     border-style: solid;
     border-color: #FFC000;
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 5px; */
+    color: #FFC000;
     transform: rotate(0);
 }
-    .myStyleMenuDivs:hover a{
-        color: #FFC000;
+    .myNavbarStyle:hover{
+        color: #ffffff;
     }
 
 
@@ -73,11 +71,11 @@ a{
         border-radius: 10px;
     }
     .myStyleHistoriaSection{
-        width: 450px;
-        height: 450px;
+        width: 350px;
+        height: 350px;
         color: #FFC000;
         text-shadow: #FFC000 2px 1px 3px;
-        background:rgba(0, 0, 0, 0.7)
+        background:rgba(0, 0, 0, 0.6)
         url("img/kaszebe.png");
         background-blend-mode: overlay;
         background-position: center;
@@ -96,7 +94,7 @@ a{
     }
 
 
-/*  ---- postacie-sylwetki section ---- */
+/*  ---- publikacje section ---- */
     .postacieSylwetkiTekst{
         font-size: 45px;
         color: #000000;
