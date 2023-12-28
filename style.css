@@ -23,6 +23,7 @@ a{
     border-color: #FFC000;
     border-width: 1px;
     border-radius: 5px; */
+    text-shadow: 1px 1px #ffffff;
     color: #FFC000;
     transform: rotate(0);
 }
