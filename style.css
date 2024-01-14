@@ -1,12 +1,16 @@
 body{
-    font-family: 'Golos Text';
-    font-family: 'Mulish';  
+    font-family: 'Golos Text'; 
+    font-family: 'Mulish'; 
 }
 a{
     text-decoration: none;
 }
 
 /* ---- background image / bottom navbar / ---- */
+
+.myStyleKontakt{
+    font-weight: 200;
+}
 .myStyleKontakt:hover{ 
     color: #FFC000 !important;
 }
@@ -17,18 +21,18 @@ a{
     background-size: inherit;
     background-position: 0 -25vh;
 }
-    .myNavbarStyle{
-    /* background-color: rgba(0, 0, 0, 0.7); */
-    font-family: Helvetica, Arial, sans-serif ;
+    .myStyleMenuDivs{
+    background-color: rgba(0, 0, 0, 0.3); 
+    width: 250px;
     color: #FFC000;
     border-color: #FFC000;
     border-style: solid;
     border-width: 1px;
     border-radius: 5px; 
-    text-shadow: 2px 2px 4px #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
     transform: rotate(0);
 }
-    .myNavbarStyle:hover{
+    .myStyleMenuDivs:hover{
         color: #ffffff;
     }
 
