@@ -74,9 +74,9 @@ a{
     .historiaText{
         font-size: 35px;
         color:#FFC000;
-        border-color: #FFC000;
         background-color: #000000;
-        border-style: solid #FFC000;
+        border-style: solid;
+        border-color: #FFC000;
         border-width: 1px; 
         border-radius: 10px;
     }
