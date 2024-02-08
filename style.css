@@ -7,7 +7,6 @@ a{
 }
 
 /* ---- background image / bottom navbar / ---- */
-
 .myStyleKontakt{
     font-weight: 200;
 }
@@ -75,8 +74,8 @@ a{
         font-size: 35px;
         color:#FFC000;
         background-color: #000000;
-        border-style: solid;
         border-color: #FFC000;
+        border-style: solid;
         border-width: 1px; 
         border-radius: 10px;
     }
@@ -136,21 +135,21 @@ a{
         background-repeat: no-repeat;
     }
 
-
-/*  ---- publikacje section ---- */
-    .postacieSylwetkiTekst{
+/*  ---- Publikacje section ---- */
+    .publikacjeTekst{
         font-size: 35px;
-        color: #000000;
-        border-style: solid;
-        border-width: 2px; 
+        color: #FFC000;
+        background-color: #000000;
         border-color: #FFC000;
+        border-style: solid;
+        border-width: 1px; 
         border-radius: 10px;
     }
-     .myStyleCardPostacieSylwetki{ 
+     .{ 
         border-color: #D21312;
         padding-left: 0 !important;
     }
-    .zobaczWiecejClass{
+    .{
         text-decoration: none;
         font-size: 30px;
         font-weight: bold;
@@ -161,6 +160,29 @@ a{
     .zobaczWiecejClass:hover{
         color:#FFC000;
     }
+
+/*  ---- W archiwaliach---- */
+.wArchiwachText{
+    font-size: 35px;
+    color: #000000;
+    background-color: #FFC000;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px; 
+    border-radius: 10px;
+    }
+    .{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 100;
+    color: #000000;
+    transition: 0.3s;
+}
+.zobaczWiecejClass:hover{
+    color:#FFC000;
+}
+
 
 /*  ----- Sign in form section ---- */
 .signInSection, .myOwnClassSignForm{
