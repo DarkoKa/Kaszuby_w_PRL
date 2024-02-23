@@ -1,2 +1,2 @@
-Kaszuby Północne w PRL - projekt strony WWW dot. historii regionu Kaszub Północnych w latach 1945-1989. [projekt w przygotowaniu]
+Kaszuby Północne w PRL - projekt strony WWW dot. historii kinematografii na Kaszubach wraz Trójamiastem [projekt w przygotowaniu]
 Bootstrap, CSS, JavaSript.
