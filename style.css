@@ -21,10 +21,10 @@ a{
     background-position: 0 -30vh;
 }
     .myStyleMenuDivs{
-    background-color: rgba(0, 0, 0, 0.5); 
-    width: 270px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    width: 200px;
     /* border-color: #FFC000; */
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 1px;
     border-radius: 5px; 
     transform: rotate(0);
@@ -32,6 +32,7 @@ a{
 }
     .myStyleFont{
         color: #FFC000;
+        font-size:  14px;
     }
     .myStyleFont:hover{
         color: #ffffff;
@@ -39,8 +40,8 @@ a{
 
 
 /* ---- "O projekcie" section ---- */
-.oProjkecieText{
-        font-size: 35px;
+.oProjkecieTitle{
+        font-size: 20px;
         color: #000000;
         background-color: #FFC000;  
         border-color: #000000;
