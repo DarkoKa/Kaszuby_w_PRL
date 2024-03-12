@@ -6,40 +6,39 @@ a{
     text-decoration: none;
 }
 
-/* ---- background image / bottom navbar / ---- */
-.myStyleKontakt{
-    font-weight: 200;
-}
+/* ---- Title / Navbar section / Background-image / Boxes menu on bottom  ---- */
 .myStyleKontakt:hover{ 
     color: #FFC000 !important;
 }
+
  .bg-image{ 
     background-image: url(/img/kaszuby_main.jpg);
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: inherit;
-    background-position: 0 -30vh;
+    background-size: cover;
 }
-    .myStyleMenuDivs{
-    background-color: rgba(0, 0, 0, 0.6); 
-    width: 250px;
-    /* border-color: #FFC000; */
-    /* border-style: solid; */
-    border-width: 1px;
-    border-radius: 5px; 
-    transform: rotate(0);
-    /* text-shadow: 2px 2px 4px #000000; */
+
+.myStyleMenuBox{
+background-color: rgba(0, 0, 0, 0.7); 
+width: 250px;
+border-radius: 5px; 
+/* border-width: 1px; */
+/* transform: rotate(0); */
+/* border-style: solid; */
+/* border-color: #FFC000; */
+/* text-shadow: 2px 2px 4px #000000; */
 }
-    .myStyleFont{
-        color: #FFC000;
-        font-size:  20px;
-    }
-    .myStyleFont:hover{
-        color: #ffffff;
-    }
+
+.myStyleFont{
+    color: #FFC000;
+    font-size:  18px;
+}
+.myStyleFont:hover{
+    color: #ffffff;
+}
 
 
-/* ---- "O projekcie" section ---- */
+/*---- "O projekcie" section ---- */
 .oProjkecieTitle{
         font-size: 24px;
         color: #000000;
@@ -65,14 +64,14 @@ a{
         font-size: 20px;
         line-height: 1.5;
         border-style: solid;
-        border-width: 1.5px; 
+        border-width: 2.5px; 
         border-radius: 10px;
         border-color: #FFC000;
     }
    
 /*  ---- "Zarys historii" section ---- */
     .historiaText{
-        font-size: 24px;
+        font-size: 35px;
         color:#FFC000;
         background-color: #000000;
         border-color: #FFC000;
