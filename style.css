@@ -6,13 +6,13 @@ a{
     text-decoration: none;
 }
 
-/* ---- Title / Navbar section / Background-image / Boxes menu on bottom  ---- */
+/* ---- title and logo / navbar section / background-image / four menu divs on bottom  ---- */
 .myStyleKontakt:hover{ 
     color: #FFC000 !important;
 }
 
  .bg-image{ 
-    background-image: url(/img/kaszuby_main.jpg);
+    background-image: url(img/kaszuby_main.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@ a{
 
 .myStyleMenuBox{
 background-color: rgba(0, 0, 0, 0.7); 
-width: 200px;
+width: 180px;
 border-radius: 4px; 
 /* border-width: 1px; */
 /* transform: rotate(0); */
@@ -42,16 +42,16 @@ border-radius: 4px;
 .oProjkecieTitle{
         font-size: 24px;
         color: #000000;
-        background-color: #FFC000;  
+        /* background-color: #FFC000;   */
         border-color: #000000;
         border-style: solid;
-        border-width: 1px; 
+        border-width: 1.5px; 
         border-radius: 10px;
     }
     .myOwnClassProjectContentLeft{
         background-color: #FFC000;
         text-align: justify;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5;
         border-style: solid;
         border-width: 1px; 
@@ -61,10 +61,10 @@ border-radius: 4px;
         background-color: #000000;
         color: #FFC000;
         text-align: justify;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5;
         border-style: solid;
-        border-width: 2.5px; 
+        border-width: 1px; 
         border-radius: 10px;
         border-color: #FFC000;
     }
