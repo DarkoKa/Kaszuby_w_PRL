@@ -3,3 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+        /* ---- navbar ---- */
+.navbar-brand{
+    font-size: 2em;
+    line-height: 1em;
+    color: #FFC000;
+    font-weight: 100;
+}
+.navbar-brand:hover{
+    
+}
+
+.nav-link{
+   font-size: 14px;
+   color: #000000;
+   text-transform: uppercase; 
+   
+}
+.nav-link:hover{
+    color:#FFC000;
+}
