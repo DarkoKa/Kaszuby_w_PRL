@@ -24,3 +24,15 @@
 .nav-link:hover{
     color:#FFC000;
 }
+
+.myClassSearchBtn{
+    font-size: 14px;
+    height: 35px;
+    width: 70px;
+    background-color: #000000;
+    color: #FFC000;
+    border-radius: 40px;
+}
+.myClassSearchBtn:hover{
+    color: #fff;
+}
