@@ -10,13 +10,15 @@
     line-height: 1em;
     color: #FFC000;
     font-weight: 100;
+    background-color: #000000;
 }
 .navbar-brand:hover{
     
 }
 
 .nav-link{
-   font-size: 14px;
+   font-size: 16px;
+   font-weight: 100;
    color: #000000;
    text-transform: uppercase; 
    
@@ -25,13 +27,22 @@
     color:#FFC000;
 }
 
+.myClassSearchText{
+    height: 30px;
+    width: 70%;
+    border: 1px solid #FFC000;
+    border-radius: 15px;
+    margin-right: -25px;
+    outline: none;
+}
 .myClassSearchBtn{
-    font-size: 14px;
-    height: 35px;
-    width: 70px;
-    background-color: #000000;
+    font-size: 12px;
+    height: 30px;
+    width: 40%;
     color: #FFC000;
-    border-radius: 40px;
+    background-color: #000000;
+    border-radius: 15px;
+    outline: none;
 }
 .myClassSearchBtn:hover{
     color: #fff;
