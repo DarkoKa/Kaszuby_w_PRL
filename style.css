@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-        /* ---- navbar ---- */
+/* ---- navbar section ---- */
 .navbar-brand{
     font-size: 2em;
     line-height: 1em;
@@ -12,9 +12,8 @@
     font-weight: 100;
     background-color: #000000;
 }
-.navbar-brand:hover{
-    
-}
+/* .navbar-brand:hover{ 
+}*/
 
 .nav-link{
    font-size: 16px;
@@ -47,3 +46,5 @@
 .myClassSearchBtn:hover{
     color: #fff;
 }
+
+/*  --- main section: background image / main title --- */
