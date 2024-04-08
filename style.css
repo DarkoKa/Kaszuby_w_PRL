@@ -11,8 +11,7 @@
     color: #FFC000;
     font-weight: 100;
 }
-/* .navbar-brand:hover{ 
-}*/
+/* .navbar-brand:hover{ }*/
 
 .nav-link{
    font-size: 16px;
@@ -24,7 +23,6 @@
 .nav-link:hover{
     color:#FFC000;
 }
-
 .myClassSearchText{
     height: 30px;
     width: 70%;
@@ -54,4 +52,9 @@
     height: 100vh;
     width: 100%;
     background-position: 10% 10%;
+}
+.myClassMainSection p{
+    color: #FFC000;
+    font-size: 4rem;
+    line-height: 4rem;
 }
