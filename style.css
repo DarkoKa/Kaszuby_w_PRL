@@ -6,19 +6,18 @@
 
 /* ---- navbar section ---- */
 .navbar-brand{
-    font-size: 2em;
+    font-size: 1.6em;
     line-height: 1em;
     color: #FFC000;
     font-weight: 100;
 }
-/* .navbar-brand:hover{ }*/
 
+/* .navbar-brand:hover{ }*/
 .nav-link{
    font-size: 16px;
    font-weight: 100;
    color: #000000;
    text-transform: uppercase; 
-   
 }
 .nav-link:hover{
     color:#FFC000;
@@ -55,6 +54,7 @@
 }
 .myClassMainSection p{
     color: #FFC000;
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-shadow: #000000 2px 2px;
 }
