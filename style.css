@@ -60,4 +60,9 @@
 }
 
 /* +++ "Kinematografia" section +++ */
-
+.card-text{
+    font-weight: 100;
+}
+.card-img-top, .card-body{
+    border: 1px solid #FFC000;
+}
