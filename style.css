@@ -6,9 +6,7 @@
 a{
     text-decoration: none;
 }
-a:visited{
-    color: #000000;
-}
+
 /* ---- navbar section ---- */
 .navbar-brand{
     font-size: 1.6em;
@@ -16,8 +14,6 @@ a:visited{
     color: #FFC000;
     font-weight: 100;
 }
-
-/* .navbar-brand:hover{ }*/
 .nav-link{
    font-size: 16px;
    font-weight: 100;
