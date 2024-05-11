@@ -70,3 +70,18 @@ a{
 .card-body{
     height: 10em;
 }
+
+
+
+/* ======== media queries ======== */
+@media(max-width: 1200px){
+    .card-body{
+        height: 13rem;
+    }
+}
+
+/* @media(max-width: 1200px){ 
+.card-body{
+        height: 13rem;
+    }
+}*/
