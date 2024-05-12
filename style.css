@@ -80,8 +80,8 @@ a{
     }
 }
 
-/* @media(max-width: 1200px){ 
+@media(max-width: 576px){ 
 .card-body{
-        height: 13rem;
+        height: 8rem;
     }
-}*/
+}
