@@ -73,15 +73,28 @@ a{
 
 
 
-/* ======== media queries ======== */
+            /* ======== media queries ======== */
+
+/* media queries to "Historia" section */
 @media(max-width: 1200px){
     .card-body{
         height: 13rem;
     }
 }
-
+@media(max-width: 960px){
+    .card-body{
+        height: 8rem;
+    }
+}
+@media(max-width: 760px){ 
+    .card-body{
+            height: 12rem;
+        }
+    }
 @media(max-width: 576px){ 
 .card-body{
         height: 8rem;
     }
 }
+
+/* media queries to "Historia" section */
