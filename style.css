@@ -70,10 +70,16 @@ a{
 .card-body{
     height: 10em;
 }
+.myCardHover{
+transition: 0.4s;
+}
+.myCardHover:hover{    
+    opacity: 0.2;
+}
 
 
 
-     /* ======== media queries ======== */
+/* ======== media queries ======== */
 
 /* media queries to "Historia" section */
 @media(max-width: 1200px){
