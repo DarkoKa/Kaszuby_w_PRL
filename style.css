@@ -63,6 +63,7 @@ a{
 /* +++ "Historia" section +++ */
 .card-text{
     font-weight: 100;
+    text-align: justify;
 }
 .card-img-top, .card-body{
     border: 1px solid #FFC000;
@@ -76,12 +77,16 @@ transition: 0.4s;
 .myCardHover:hover{    
     opacity: 0.3;
 }
-
 .myStyleButton{
-    background-color: #FFC000 !important;
-    color: #000000 ;
+    color: #ffffff;
+    border-style: none;
+    padding: 5px;
+    transition: 0.4s;
 }
-
+.myStyleButton:hover{
+    background-color: #FFC000 !important;
+    color: #000000;
+}
 
 
 /* ======== media queries ======== */
