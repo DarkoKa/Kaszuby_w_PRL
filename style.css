@@ -86,8 +86,15 @@ transition: 0.4s;
 .myStyleButton:hover{
     background-color: #FFC000 !important;
     color: #000000;
+    
 }
 
+/* +++ Kontankt section +++ */
+.myStyleSection{
+    background-color: #FFC000;
+    color: #000000;
+    font-weight: 100;
+}
 
 /* ======== media queries ======== */
 
