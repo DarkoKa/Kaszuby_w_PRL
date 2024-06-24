@@ -11,7 +11,7 @@ a{
 .navbar-brand{
     font-size: 1.6em;
     line-height: 1em;
-    color: #FFC000;
+    color: #FFC000 !important;
     font-weight: 100;
 }
 .nav-link{
@@ -77,15 +77,16 @@ transition: 0.4s;
 .myCardHover:hover{    
     opacity: 0.3;
 }
-.myStyleButton{
+.myStyleWyslijButton{
     color: #ffffff;
+    background-color: #000000;
     border-style: none;
     padding: 5px;
     transition: 0.4s;
 }
-.myStyleButton:hover{
+.myStyleWyslijButton:hover{
     background-color: #FFC000 !important;
-    color: #000000;
+    color: #ffffff;
     
 }
 
