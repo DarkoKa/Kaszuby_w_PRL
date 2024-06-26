@@ -79,16 +79,11 @@ transition: 0.4s;
 }
 .myStyleWyslijButton{
     color: #ffffff;
-    background-color: #000000;
-    border-style: none;
-    padding: 5px;
     transition: 0.4s;
 }
 .myStyleWyslijButton:hover{
-    background-color: #FFC000 !important;
     color: #ffffff;
-
-    
+    background-color: #000000;
 }
 
 /* +++ Kontankt section +++ */
