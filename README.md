@@ -1,4 +1,5 @@
 Dzieje Kinematografii - serwis WWW poświęcony historii kinematografii. 
+<br>
 Wykorzystane technologie: Bootstrap, CSS, JavaSript.
 <br>
 ![image](https://github.com/DarkoKa/Informatyka_w_PRL/assets/28714914/9f60f202-9414-4517-920f-1a3406510a35)
