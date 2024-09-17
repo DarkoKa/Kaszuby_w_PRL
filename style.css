@@ -8,10 +8,13 @@ a{
 }
 
 /* ---- navbar section ---- */
+.navbar{
+    background-color:  #00161e;
+}
 .navbar-brand{
     font-size: 1.6em;
     line-height: 1em;
-    color: #FFC000 !important;
+    color: #ffffff !important;
     font-weight: 100;
 }
 .nav-link{
@@ -47,45 +50,33 @@ a{
 
 /*  +++ main section: background image / main title +++ */
 .myClassMainSection{
-    background: url(img/.jpg) no-repeat; 
+    background: url(img/kino_skapra.jpg) no-repeat; 
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
-    background-position: 10% 10%;
+    background-position: 20% 40%;
 }
 .myClassMainSection p{
-    color: #FFC000;
+    color: #3f7781;
     font-size: 2.5rem;
     line-height: 2.5rem;
     text-shadow: #000000 2px 2px 3px;
 }
 
 /* +++ "Historia" section +++ */
-.card-img{
-    background-image: url('img/kinetoskop.jpg');
-    position: relative;
-    background-size: cover;
-    width: 100%;
-    height: 22em;
+.card-img-top{  
+    height: 18em;
     border: 1px solid #ffffff;
-    color: white;
+    object-fit: cover;
 }
-.card-img::before{
-    background-color: rgba(195, 38, 38, 0.23) !important;
-    display: block;
-    position: absolute;
-}
-
-
-
-/*.card-img-top, .card-body{
+.card-img-top, .card-body{
     border: 1px solid #ffffff;
 }
 .card-body{
-    height: 10em;
+    height: 6em;
 }
  .myCardHover{ 
-transition: 0.4s;
+    transition: 0.4s;
 }
 .myCardHover:hover{    
     opacity: 0.3;
@@ -105,6 +96,7 @@ transition: 0.4s;
     color: #000000;
     font-weight: 100;
 }
+
 
 /* ======== media queries ======== */
 
@@ -130,3 +122,12 @@ transition: 0.4s;
     }
 }
 
+
+
+/* color paltte:   
+.color1 {color: #00161e;}
+.color2 {color: #133532;}
+.color3 {color: #214f5b;}
+.color4 {color: #3f7781;}
+.color5 {color: #55a39e;}
+*/
