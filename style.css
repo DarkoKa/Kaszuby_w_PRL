@@ -8,9 +8,7 @@ a{
 }
 
 /* ---- navbar section ---- */
-.navbar{
-    background-color:  #00161e;
-}
+
 .navbar-brand{
     font-size: 1.6em;
     line-height: 1em;
@@ -57,7 +55,7 @@ a{
     background-position: 20% 40%;
 }
 .myClassMainSection p{
-    color: #3f7781;
+    color: #ffffff;
     font-size: 2.5rem;
     line-height: 2.5rem;
     text-shadow: #000000 2px 2px 3px;
@@ -66,7 +64,6 @@ a{
 /* +++ "Historia" section +++ */
 .card-img-top{  
     height: 18em;
-    border: 1px solid #ffffff;
     object-fit: cover;
 }
 .card-img-top, .card-body{
@@ -92,9 +89,9 @@ a{
 
 /* +++ Kontankt section +++ */
 .myStyleSection{
-    background-color: #FFC000;
+   
     color: #000000;
-    font-weight: 100;
+
 }
 
 
@@ -123,11 +120,19 @@ a{
 }
 
 
+/* colors palette */
+.first-color { 
+	background: #222831; 
+}
+	
+.second-color { 
+	background: #2d4059; 
+}
 
-/* color paltte:   
-.color1 {color: #00161e;}
-.color2 {color: #133532;}
-.color3 {color: #214f5b;}
-.color4 {color: #3f7781;}
-.color5 {color: #55a39e;}
-*/
+.third-color { 
+	background: #ff5722; 
+}
+
+.fourth-color { 
+	background: #eeeeee; 
+}
