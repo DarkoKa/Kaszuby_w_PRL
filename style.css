@@ -25,35 +25,13 @@ a{
     font-weight: 100;
 } 
 .nav-link:hover{
-    color:#7d0404 !important;
-}
-.myClassSearchText{
-    height: 30px;
-    width: 70%;
-    border: 1px solid #FFC000;
-    border-radius: 15px;
-    margin-right: -25px;
-    outline: none;
-}
-.myClassSearchBtn{
-    font-size: 12px;
-    height: 30px;
-    width: 40%;
-    color: #FFC000;
-    background-color: #000000;
-    border-radius: 15px;
-    outline: none;
-    border-style: none;
-}
-.myClassSearchBtn:hover{
-    color: #fff;
+    color:#000000 !important;
 }
 
 /*  +++ main section: (background image, main title) +++ */
-
 .styleTextMainSection{
     color: #ffffff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     text-shadow: #000000 2px 2px 3px;
     background: linear-gradient(to right, rgba(18, 22, 150, 0.0), rgba(15, 43, 158, 0.6));
@@ -96,6 +74,7 @@ a{
 
 
 /* ======== media queries ========
+==================================
 ================================ */
 
 /* media queries to ? section */
@@ -156,3 +135,27 @@ a{
 .fourth-color { 
 	background: #eeeeee; 
 }
+
+
+/* class to Search batton [temporary closed] */
+/* .myClassSearchText{ 
+    height: 30px;
+    width: 70%;
+    border: 1px solid #FFC000;
+    border-radius: 15px;
+    margin-right: -25px;
+    outline: none;
+}
+.myClassSearchBtn{
+    font-size: 12px;
+    height: 30px;
+    width: 40%;
+    color: #FFC000;
+    background-color: #000000;
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+}
+.myClassSearchBtn:hover{
+    color: #fff;
+}*/
