@@ -11,18 +11,18 @@ a{
 .myClassMainSection{
     background: url(img/theater-8569119_1920.jpg) no-repeat; 
     background-size: cover;
-    height: 105vh;
+    height: 100vh;
     width: 100%;
     background-position: 100% 40%;
 }
 .navbar{
-     background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
 }
 .nav-link{
     color: #ffffff !important;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1em;
-    font-weight: 200;
+    font-weight: 100;
 } 
 .nav-link:hover{
     color:#000000 !important;
@@ -34,9 +34,11 @@ a{
     font-size: 2rem;
     line-height: 2.5rem;
     text-shadow: #000000 2px 2px 3px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
-    margin-top: 200px;
-    width: 70%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    padding: 5px;
+    font-weight: 100;
+    margin-top: 160px;
+    width: 50%;
 }
 
 /* +++ "Historia" section +++ */
