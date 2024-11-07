@@ -9,18 +9,18 @@ a{
 
 /* ---- start(main) screen / navbar section ---- */
 .myClassMainSection{
-    background: url(img/main_bg.jpg) no-repeat; 
+    background: url(img/kaszuby_mainImage.jpg) no-repeat; 
     background-size: cover;
     height: 100vh;
     width: 100%;
-    background-position: 100% 40%;
+    background-position: 10% 60%;
 }
 .navbar{
-     background: linear-gradient(to top, rgba(95, 76, 15, 0), rgb(81, 65, 10));
+     background: linear-gradient(to top, rgba(95, 76, 15, 0), rgb(252, 204, 0));
   
 }
 .nav-link{
-    color: #ffffff !important;
+    color: #000000 !important;
     font-size: 18px;
     line-height: 1em;
     font-weight: 100;
@@ -95,7 +95,6 @@ a{
     }
 }
 
-
 /* media queries to "Historia" section */
 @media(max-width: 1200px){
     .card-body{
@@ -119,22 +118,7 @@ a{
 }
 
 
-/* colors palette */
-.first-color { 
-	background: #222831; 
-}
-	
-.second-color { 
-	background: #2d4059; 
-}
-
-.third-color { 
-	background: #830804; 
-}
-
-.fourth-color { 
-	background: #eeeeee; 
-}
+/* colors palette ... */
 
 
 /* class to Search batton [temporary closed] */
