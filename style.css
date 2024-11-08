@@ -13,7 +13,7 @@ a{
     background-size: cover;
     height: 100vh;
     width: 100%;
-    background-position: 10% 60%;
+    background-position:  70%;
 }
 .navbar{
      background: linear-gradient(to top, rgba(95, 76, 15, 0), rgb(252, 204, 0));
@@ -21,13 +21,13 @@ a{
 }
 .nav-link{
     color: #000000 !important;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1em;
     font-weight: 100;
     transition: 0.2s;
 } 
 .nav-link:hover{
-    font-size: 20px;
+    font-size: 30px;
     /* color:#000000 !important; */
 }
 
@@ -56,6 +56,12 @@ a{
 .myCardHover:hover{    
     opacity: 0.3;
 }
+
+/* +++ Kontankt section +++ */
+.myStyleSection{
+    color: #000000;
+
+}
 .myStyleWyslijButton{
     color: #ffffff;
     transition: 0.4s;
@@ -65,11 +71,7 @@ a{
     background-color: #000000;
 }*/
 
-/* +++ Kontankt section +++ */
-.myStyleSection{
-    color: #000000;
 
-}
 
 
 
