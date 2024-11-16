@@ -7,17 +7,20 @@ a{
     text-decoration: none;
 }
 
-/* ---- start(main) screen / navbar section ---- */
+/* -------- start(main) screen and navbar section -------- */
 .myClassMainSection{
-    background: url(img/kaszuby_mainImage.jpg) no-repeat; 
+    background: url(img/kaszuby_mainImage.jpg)  no-repeat; 
     background-size: cover;
     height: 100vh;
     width: 100%;
-    background-position:  70%;
+    background-position: 30% 50%;
+}
+.myClassMainScreen{
+    background-color:rgba(0, 0, 0, 0.4);
+
 }
 .navbar{
-     background: linear-gradient(to top, rgba(95, 76, 15, 0), rgb(252, 204, 0));
-  
+     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(252, 204, 1));  
 }
 .nav-link{
     color: #000000 !important;
@@ -27,19 +30,12 @@ a{
     transition: 0.2s;
 } 
 .nav-link:hover{
-    font-size: 30px;
-    /* color:#000000 !important; */
+    font-size: 25px;
 }
 
-/*  +++ main section: (background image, main title) +++ */
-.styleTextMainSection{
-    color: #ffffff;
-    line-height: 2.5rem;
-    text-shadow: #000000 4px 4px 6px;
-    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); */
-}
 
-/* +++ "Historia" section +++ */
+
+/* --------- "Historia" section ---------- */
 .card-img-top{  
     height: 18em;
     object-fit: cover;
@@ -76,7 +72,6 @@ a{
 
 
 /* ======== media queries ========
-==================================
 ================================ */
 
 /* media queries to ? section */
@@ -120,7 +115,9 @@ a{
 }
 
 
-/* colors palette ... */
+
+
+
 
 
 /* class to Search batton [temporary closed] */
@@ -144,4 +141,14 @@ a{
 }
 .myClassSearchBtn:hover{
     color: #fff;
+}*/
+
+
+/*  +++ main section: (background image, main title) +++ 
+.styleTextMainSection{ 
+    color: #ffffff;
+    line-height: 2.5rem;
+    text-shadow: #000000 4px 4px 6px;
+    background: rgba(84, 163, 5, 0.3);
+    /* background: linear-gradient(to top, rgba(196, 154, 13, 0.2), rgb(252, 204, 0.2));
 }*/
