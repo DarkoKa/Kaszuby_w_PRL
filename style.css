@@ -13,26 +13,24 @@ a{
     background-size: cover;
     height: 100vh;
     width: 100%;
-    background-position: 30% 50%;
+    background-position: 60% 50%;
 }
 .myClassMainScreen{
-    background-color:rgba(0, 0, 0, 0.4);
+    background-color:rgba(0, 0, 0, 0.5);
+}
 
+.myClassNavbar{
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgb(252, 204, 0.9));  
 }
-.navbar{
-     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(252, 204, 1));  
-}
-.nav-link{
-    color: #000000 !important;
+.myClassNavLink{
+    color: #ffffff !important;
     font-size: 20px;
-    line-height: 1em;
     font-weight: 100;
     transition: 0.2s;
 } 
-.nav-link:hover{
+.myClassNavLink:hover{
     font-size: 25px;
 }
-
 
 
 /* --------- "Historia" section ---------- */
