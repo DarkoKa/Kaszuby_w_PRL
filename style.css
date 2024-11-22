@@ -32,6 +32,30 @@ a{
     font-size: 25px;
 }
 
+/* class to Search batton */
+.myClassSearchText{ 
+    height: 30px;
+    width:100%;
+    border: 1px solid #FFC000;
+    border-radius: 15px;
+    margin-right: -35px;
+    outline: none;
+}
+.myClassSearchBtn{
+    font-size: 12px;
+    height: 30px;
+    width: 40%;
+    color: #FFC000;
+    background-color: #000000;
+    border: 2px solid #FFC000;
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+}
+.myClassSearchBtn:hover{
+    color: #fff;
+}
+
 
 /* --------- "Historia" section ---------- */
 .card-img-top{  
