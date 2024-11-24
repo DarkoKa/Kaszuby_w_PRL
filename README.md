@@ -1,4 +1,4 @@
-Dzieje Kinematografii - serwis WWW poświęcony historii kinematografii. 
+Dzieje Kaszub w PRL - serwis WWW poświęcony historii regionu Kaszub w latach 1945-1989. 
 <br>
 Wykorzystane technologie: Bootstrap, CSS, JavaSript.
 <br>
