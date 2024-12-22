@@ -13,12 +13,11 @@ a{
     background-size: cover;
     height: 100vh;
     width: 100%;
-    background-position: 60% 55%;
+    background-position: 55% 50%; 
 }
 .myClassMainScreen{
     background-color:rgba(0, 0, 0, 0.5);
 }
-
 .myClassNavbar{
      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgb(252, 204, 0.9));  
 }
@@ -99,22 +98,20 @@ a{
 ================================ */
 
 /* media queries to ? section */
-
 @media(max-width: 992px){
-    .myTest{
+    .navbar{
         width: 100%;
     }
 }
 
 @media(max-width: 768px){
-    .myTest{
+    .nabvar{
         width: 100%;
     }
 }
 @media(max-width: 576px){
-    .myTest{
-        font-size: 1.5rem;
-        width: 70%;
+    .navbar{
+        width: 100%;
     }
 }
 
