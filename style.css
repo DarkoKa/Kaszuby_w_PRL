@@ -104,9 +104,9 @@ a{
     }
 }
 
-@media(max-width: 768px){
-    .nabvar{
-        width: 100%;
+@media(max-width: 992px){
+    .leftDiv{
+        display: none;
     }
 }
 @media(max-width: 576px){
