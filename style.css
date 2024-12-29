@@ -57,8 +57,8 @@ a{
 
 
 /* --------- "Historia" section ---------- */
-.card-img-top{  
-    height: 18em;
+/* .card-img-top{   
+height: 18em;
     object-fit: cover;
 }
 .card-img-top, .card-body{
@@ -72,7 +72,7 @@ a{
 }
 .myCardHover:hover{    
     opacity: 0.3;
-}
+}*/
 
 /* +++ Kontankt section +++ */
 .myStyleSection{
