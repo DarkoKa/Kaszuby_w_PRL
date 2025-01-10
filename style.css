@@ -57,22 +57,24 @@ a{
 
 
 /* --------- "Historia" section ---------- */
+
 .card-img-top{   
 height: 18em;
-    object-fit: cover;
+object-fit: contain;
 }
 /* .card-img-top, .card-body{ 
     border: 0px solid #ffffff;
 }*/
 .card-body{
-    height: 9em;
+    height: 6em;
+    background-color: #FFC000;
 }
  .myCardHover{ 
-    opacity: 0.7;
+    opacity: 1;
     transition: 0.4s;
 }
 .myCardHover:hover{    
-    opacity: 1;
+    opacity: 0.8;
 }
 
 /* +++ Kontankt section +++ */
