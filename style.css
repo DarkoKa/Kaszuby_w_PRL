@@ -57,17 +57,23 @@ a{
 
 
 /* --------- "Historia" section ---------- */
-
 .card-img-top{   
-height: 18em;
+height: 24em;
 object-fit: contain;
+border-radius: 0 !important;
 }
 /* .card-img-top, .card-body{ 
     border: 0px solid #ffffff;
 }*/
+.myRowStyle{
+    padding-right: 0;
+    padding-left: 0;
+}
 .card-body{
     height: 6em;
     background-color: #FFC000;
+    border-color: #ffffff;
+    
 }
  .myCardHover{ 
     opacity: 1;
@@ -79,20 +85,20 @@ object-fit: contain;
 
 /* +++ Kontankt section +++ */
 .myStyleSection{
-    color: #000000;
-    background-color: #FFC000;
+    color: #FFC000;
+    font-size: 18px;
+    /* background-color: #000000; */
 
 }
 .myStyleWyslijButton{
-    color: #ffffff;
+    color: #000000;
     width: 70px;
     height: 40px;
-    background-color: #000000;
+    background-color: #FFC000;
     border-radius: 5px;
     transition: 0.3s;
 }
 .myStyleWyslijButton:hover{
-    color: #ffffff;
     width: 75px;
 }
 
