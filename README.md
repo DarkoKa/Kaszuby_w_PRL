@@ -1,4 +1,4 @@
-Dzieje Kaszub w PRL - serwis WWW poświęcony historii regionu Kaszub w latach 1945-1989. 
+Dzieje Kaszub Północnych w PRL - serwis WWW poświęcony historii regionu powaiató puckiego i wejherowskiego w latach 1945-1989. 
 <br>
 Wykorzystane technologie: Bootstrap, CSS, JavaSript.
 <br>
